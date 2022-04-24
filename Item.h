@@ -7,10 +7,10 @@ class Item {
       float discount; // out of 100 e.g. discount = 15
    public:
       Item();
-      Item(int code, float uPrice, float iDiscount);
+      Item(int code, float uPrice);
       ~Item();
 
-      void setDiscount(float punitPrice);
+      void setDiscount(float pdiscount);
       float getDiscount();
       float discountedPrice();
       void display();
